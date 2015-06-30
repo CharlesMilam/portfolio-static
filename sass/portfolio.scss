@@ -4,7 +4,7 @@ $font-base: "Roboto", "Helvetica", "Arial", sans-serif;
 
 body {
   background-color: $primary-color;
-  font-family: serif;
+  font-family: $font-base;
   color: $primary-text-color;
 }
 header {
