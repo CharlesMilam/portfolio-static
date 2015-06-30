@@ -1,22 +1,24 @@
 @import "palette";
 
+$font-base: "Roboto", "Helvetica", "Arial", sans-serif;
+
 body {
   background-color: $primary-color;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: serif;
   color: $primary-text-color;
 }
 header {
   height: 0.001em;
 }
 main {
-  background-color: $light-primary-color;
+  background-color: $primary-color-light;
   height: 100%;
   margin: 3.6em 0 1em 0;
   width: 100%;
   z-index: 1;
 }
 footer {
-  background-color: #$primary-color;
+  background-color: $primary-color;
   height: 0;
 }
 .bit-20 {
@@ -30,8 +32,8 @@ footer {
   text-align: center;
 }
 .card {
-  background: $text-primary-color;
-  border: 1px solid $light-primary-color;
+  background: $primary-color-text;
+  border: 1px solid $primary-color-light;
   box-shadow: 0 0.75em 0.938em 0 rgba(0,0,0,0.2);
   margin: 2em 0.5em 3em 0.5em;
   max-width: 100%;
@@ -57,19 +59,19 @@ footer {
   text-align: center;
 }
 .navbar {
-  background-color: $dark-primary-color;
+  background-color: $primary-color-dark;
   z-index: 3;
 }
 .nav-brand {
-  color: $text-primary-color;
+  color: $primary-color-text;
 }
 #stickynav {
   width: 100%;
 }
 #stickynav li {
-  background-color: $dark-primary-color;
+  background-color: $primary-color-dark;
   border-radius: 0.313em;
-  color: $text-primary-color;
+  color: $primary-color-text;
   display: inline;
   float: right;
   font-size: 1em;
@@ -78,7 +80,7 @@ footer {
   transition: 0.5s ease-out;
 }
 #stickynav li a {
-  color: $text-primary-color;
+  color: $primary-color-text;
   text-decoration: none;
 }
 #stickynav li:hover{
