@@ -17,7 +17,6 @@ main {
 }
 footer {
   background-color: #$primary-color;
-  /*box-shadow: 0 3px 5px rgba(0,0,0,0.2);*/
   height: 0;
 }
 .bit-20 {
@@ -25,7 +24,6 @@ footer {
 }
 .content {
   width: 100%;
-  /*margin: 3em 1em;*/
 }
 .content h1, .content h2, .content h3, .content h4 {
   margin: 0.5em;
@@ -40,11 +38,7 @@ footer {
   padding: 0.5em;
 }
 .content .card {
-
-  /*margin: 15px, auto;*/
-  /*padding: 0 15px;*/
   display: inline-block;
-  /*max-width: 30%;*/
   vertical-align: top;
 }
 .card-content {
@@ -64,31 +58,12 @@ footer {
 }
 .navbar {
   background-color: $dark-primary-color;
-  /*box-shadow: 0 6px 3px 3px rgba(0,0,0,0.2);
-  margin-bottom: 1em;*/
   z-index: 3;
-  /*max-height: 4em;*/
 }
 .nav-brand {
   color: $text-primary-color;
 }
-/*[class*='nav-'] {
-  background-color: #5d4037;
-  box-shadow: 0 6px 3px -3px rgba(0,0,0,0.2);
-  min-height: 4em;
-}*/
-
-/*.nav-menu {
-  margin-left: -0.3em;
-}*/
 #stickynav {
-
-  /*border-bottom: 1px solid #328036;*/
-
-
-  /*margin: -0.3em 0 1em -0.24em;*/
-  /*margin-top: -20px;*/
-  /*padding: 0.7em 0.5em;*/
   width: 100%;
 }
 #stickynav li {
@@ -99,7 +74,6 @@ footer {
   float: right;
   font-size: 1em;
   margin: 0 0 0 3em;
-  /*min-height: 3.3em;*/
   padding: 1em 0.75em 0.75em 1em;
   transition: 0.5s ease-out;
 }
@@ -117,7 +91,6 @@ footer {
   height: 35%;
   width: 90%;
   margin: 0 auto;
-  /*padding: 32px auto 10px auto;*/
   padding-bottom: 10px;
 }
 #contact-form h3 {
