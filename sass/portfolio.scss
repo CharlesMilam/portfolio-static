@@ -1,5 +1,7 @@
+@import "palette";
+
 body {
-  background-color: #795548;
+  background-color: $primary-color;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   color: #212121;
 }
