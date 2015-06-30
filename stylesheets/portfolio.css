@@ -131,12 +131,17 @@ footer {
 }
 
 /* line 104, ../sass/portfolio.scss */
+#stickynav li a {
+  color: #ffffff;
+}
+
+/* line 107, ../sass/portfolio.scss */
 #stickynav li:hover {
   background-color: #795548;
   transition: 0.2s ease-in;
 }
 
-/* line 108, ../sass/portfolio.scss */
+/* line 111, ../sass/portfolio.scss */
 #contact-form {
   background-color: #C8E6C9;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.2);
@@ -147,13 +152,13 @@ footer {
   padding-bottom: 10px;
 }
 
-/* line 117, ../sass/portfolio.scss */
+/* line 120, ../sass/portfolio.scss */
 #contact-form h3 {
   text-align: center;
   padding-top: 9px;
 }
 
-/* line 121, ../sass/portfolio.scss */
+/* line 124, ../sass/portfolio.scss */
 #contact-form input, label, textarea {
   box-shadow: none;
   display: block;
@@ -162,13 +167,13 @@ footer {
   width: 80%;
 }
 
-/* line 128, ../sass/portfolio.scss */
+/* line 131, ../sass/portfolio.scss */
 #contact-form input, textarea {
   border: 1px solid #b6b6b6;
   margin-top: -5px;
 }
 
-/* line 132, ../sass/portfolio.scss */
+/* line 135, ../sass/portfolio.scss */
 #contact-form button {
   background-color: #2196f3;
   border: none;
@@ -181,13 +186,13 @@ footer {
 }
 
 @media (max-width: 420px) {
-  /* line 143, ../sass/portfolio.scss */
+  /* line 146, ../sass/portfolio.scss */
   .box {
     display: block;
     width: 100%;
   }
 
-  /* line 147, ../sass/portfolio.scss */
+  /* line 150, ../sass/portfolio.scss */
   #stickynav {
     display: none;
   }
