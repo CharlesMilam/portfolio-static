@@ -28,6 +28,12 @@ footer {
 .bit-20 {
   width: 20%;
 }
+h1 {
+  font-size: $base-font-size * 2;
+}
+h3 {
+  font-size: $base-font-size * 1.5;
+}
 .content {
   width: 100%;
 }
@@ -78,9 +84,8 @@ footer {
   color: $primary-color-text;
   display: inline;
   float: right;
-  font-size: 1em;
-  margin: 0 0 0 3em;
-  padding: 1em 0.75em 0.75em 1em;
+  margin: 0.5em 0 0 3em;
+  padding: 1em 0.75em 1em 1em;
   transition: 0.5s ease-out;
 }
 #stickynav li a {
